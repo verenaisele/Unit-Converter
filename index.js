@@ -6,3 +6,9 @@
 Anweisungen:Generate all conversions, when the user clicks the button
 Round the numbers down to 3 decimal places
 */
+
+const convertBtn = document.getElementById("convert-btn")
+
+convertBtn.addEventListener("click", function(){
+  console.log("click")
+})

@@ -5,12 +5,24 @@ body {
     text-align: center;
 }
 
-h1, p {
+h1, h2, p {
     margin: 0;
 }
 
 h1 {
     color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 9px;
 }
 
 input {
@@ -50,11 +62,18 @@ button {
 #results {
     background: #F4F4F4;
     margin: 0;
-    padding: 35px 25px;
+    padding: 35px 25px 15px;
+}
+
+#entity {
+    background: #fff;
+    padding: 30px 0 18px;
+    margin-bottom: 20px;
 }
 
 p {
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
